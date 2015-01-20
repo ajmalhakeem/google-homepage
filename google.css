@@ -1,32 +1,36 @@
 /*********************MAIN CONTENT*********************/
 .main {
-  margin: 0 auto;
+  margin: 400 auto 0;
   width: 1280px;
-  position: relative;
-  float:left;
-  display: block;
+  overflow: hidden;
+  height: 500px;
 }
-
+/******************************************************/
+/*******************FORM AND INPUT***********************/
 .main form {
   width: 1280px;
   text-align: center;
   display:block;
+  margin-top: 5px;
 }
 
 #search {
   width: 500px;
-  text-align: center;
+  text-align: left;
   height: 21px;
   display: inline;
+  padding: 2px;
 }
-
+/******************************************************/
+/*******************GOOGLE IMAGE***********************/
 .image {
-  padding-top:200px;
-  padding-bottom: 5px;
+  padding-top:160px;
+  width: 800px;
+  margin: 0 auto;
 }
-.google {
-  width: 280px;
-  height: 100px;
+#google {
+  width: 275px;
+  height: 95px;
   margin: 0 auto;
   display: block;
 }
@@ -45,28 +49,58 @@ li a:hover {
 
 
 /******************************************************/
-/*******************NAVIGATION*************************/
+/*******************HEADER*************************/
 
-.nav {
-  float: right;
-  margin-top: -4px;
-  width: 400px;
+.header {
+  text-align: right;
+  padding-right: 20px;
+  display: block;
+  padding-top: 8px;
 }
 
-.nav ul {
+.header ul {
   list-style: none;
 }
 
-.nav ul li {
+.header ul li {
   display: inline;
-  padding-right: 12px;
+  padding-right: 10px;
   font-size: 12.5px;
   font-family: sans-serif;
+}
 
+.signin {
+  border: 1px solid #d1d1d1;
+  padding: 6px 11px;
+  border-radius: 2px;
+  margin-left: 2px;
+  background-color: #4285f4;
+  color: white;
+  font-weight: bold;
+}
+
+.signin:hover {
+  background-color: #356AC3;
+  text-decoration: none;
 }
 /******************************************************/
-/*******************BOTTOM*****************************/
-.search {
-  float: right
-  margin-left:;
+/*******************LOWER******************************/
+.lower {
+  display: block;
+  text-align: center;
+  padding: 6px;
+}
+
+.button {
+  padding: 6px 5px;
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,0.1);
+  margin-right: 6px;
+  margin-left: 6px;
+  margin-top: 10px;
+}
+
+.button span {
+  padding: 4px 2px;
+  font-weight: bold;
 }
