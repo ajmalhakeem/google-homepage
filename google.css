@@ -20,6 +20,7 @@
   height: 21px;
   display: inline;
   padding: 2px;
+  font-size: 18px;
 }
 /******************************************************/
 /*******************GOOGLE IMAGE***********************/
@@ -94,6 +95,8 @@ li a:hover {
 .button {
   padding: 6px 5px;
   border-radius: 2px;
+  background-color: rgba(0,0,0,.3);
+  background: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
   border: 1px solid rgba(0,0,0,0.1);
   margin-right: 6px;
   margin-left: 6px;
