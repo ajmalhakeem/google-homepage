@@ -1,11 +1,38 @@
+/*********************MAIN CONTENT*********************/
 .main {
   margin: 0 auto;
-  margin-top: 150px;
   width: 1280px;
   position: relative;
-  clear:both;
+  float:left;
+  display: block;
 }
 
+.main form {
+  width: 1280px;
+  text-align: center;
+  display:block;
+}
+
+#search {
+  width: 500px;
+  text-align: center;
+  height: 21px;
+  display: inline;
+}
+
+.image {
+  padding-top:200px;
+  padding-bottom: 5px;
+}
+.google {
+  width: 280px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+/*****************************************************/
+/*********************MISCELANEOUS********************/
 a {
   text-decoration: none;
   color: #0e0e0e;
@@ -14,31 +41,16 @@ a {
 li a:hover {
   text-decoration: underline;
 }
-.main {
-  float:left;
-}
-.main form {
-  width: 1280px;
-  text-align: center;
-}
 
-#search {
-  width: 500px;
-  text-align: center;
-  height: 21px;
-}
 
-.google {
-  width: 280px;
-  height: 100px;
-  margin: 0 auto;
-  display: block;
-  padding-bottom: 5px;
-}
+
+/******************************************************/
+/*******************NAVIGATION*************************/
 
 .nav {
   float: right;
   margin-top: -4px;
+  width: 400px;
 }
 
 .nav ul {
@@ -52,10 +64,9 @@ li a:hover {
   font-family: sans-serif;
 
 }
-
+/******************************************************/
+/*******************BOTTOM*****************************/
 .search {
-  float:left;
-  margin: 0 auto;
-  background: red;
-  text-align: center;
+  float: right
+  margin-left:;
 }
